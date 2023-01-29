@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+#wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+.container {
+  width: 50%;
+  height: 100%;
+  background-color: whitesmoke;
+  padding: 1rem 2rem 1rem 3rem;
+}
+
+.list {
+  padding: 10px;
+  margin: 2px 3px 3px 2px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 15%;
+  font-size: 0.6rem;
+}
+
+.menu img {
+  height: 35%;
+  width: 7%;
+}
+
+.menu ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  color: gray;
+  text-shadow: 1px 0 0px rgba(0, 0, 0, 0.1);
+}
+
+.list li:hover {
+  color: rgb(2, 2, 220);
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+.menu button {
+  height: 35%;
+  width: 19%;
+  padding: 0.5rem;
+  background-color: rgb(103, 103, 198);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 0 0 rgba(0, 0, 0, 0.1);
+  color: white;
+  cursor: pointer;
+}
+
+.menu button:hover {
+  background-color: darkblue;
+}
+
+.content1,
+.content2 {
+  display: flex;
+  justify-content: flex-start;
+  height: 30%;
+  /* gap: 3rem; */
+}
+
+h1 {
+  font-size: 1.2rem;
+}
+
+.desc {
+  font-size: 0.6rem;
+  width: 90%;
+  color: gray;
+}
+
+.content1 img,
+.content2 img {
+  width: 40%;
+  height: 70%;
+}
+
+section.content1 img {
+  margin-left: 3rem;
+}
+
+section.content1 img + hr {
+  margin-bottom: -1rem;
+}
+
+section.content2 img {
+  margin-right: 3rem;
+}
+section.content2 + hr {
+  /*adjacent sibling selector*/
+  margin-top: -1rem;
+}
+
+section hr {
+  margin: 0.2rem 0 1rem 0rem;
+  width: 35%;
+}
+
+footer {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  height: 10%;
+  width: 100%;
+  font-size: 0.5rem;
+  /* flex-direction: row-r; */
+}
+
+.privacy img {
+  height: 52%;
+  width: 42%;
+  padding: 0.5rem 0;
+}
+
+footer h5 {
+  padding: 0.5rem 0;
+  color: rgb(103, 103, 198);
+  text-decoration: underline;
+}
+
+.privacy p {
+  font-size: 0.5rem;
+}
+
+.privacy,
+.addemail,
+.menu2 {
+  height: 100%;
+  color: gray;
+  /* width: 100%; */
+}
+
+.socials {
+  display: flex;
+  gap: 0.2rem;
+  height: 100%;
+  width: 20%;
+}
+
+.img {
+  height: 50%;
+  width: 50%;
+}
+
+footer button {
+  height: 20%;
+  border-radius: 50%; /* To create round button, use 'border-radius: 50%' */
+  background-color: blue;
+  border: none;
+  width: 15%;
+}
+
+.menu2 ul {
+  list-style-type: none;
+}
+
+.addemail {
+  width: 30%;
+}
+
+
